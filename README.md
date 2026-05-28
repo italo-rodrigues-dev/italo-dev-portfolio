@@ -22,20 +22,6 @@ This repository includes programming exercises, study projects, academic assignm
 
 # Featured Projects
 
-## Vestibular Management System (Pascal)
-
-Complete university admission management system using binary files, sorting algorithms, candidate registration, classroom allocation, exam grading, and candidate ranking generation.
-
-### Concepts Used
-
-- Binary files
-- Records
-- Sorting algorithms
-- Structured programming
-- Data processing
-
----
-
 ## Typing Game Web System
 
 Web typing game integrated with PHP and MySQL, including login system, score tracking, and leaderboard ranking.
@@ -62,16 +48,17 @@ Personal front-end project focused on card game mechanics and drafting simulatio
 
 ---
 
-## Linux System Monitor
+## Vestibular Management System (Pascal)
 
-Shell Script project for monitoring computer resource usage and displaying system information through terminal commands.
+Complete university admission management system using binary files, sorting algorithms, candidate registration, classroom allocation, exam grading, and candidate ranking generation.
 
 ### Concepts Used
 
-- Bash scripting
-- Process monitoring
-- Linux commands
-- Automation
+- Binary files
+- Records
+- Sorting algorithms
+- Structured programming
+- Data processing
 
 ---
 
@@ -137,20 +124,6 @@ Este repositório inclui exercícios de programação, projetos de estudo, traba
 
 # Projetos em Destaque
 
-## Sistema de Gerenciamento de Vestibular (Pascal)
-
-Sistema completo de gerenciamento de vestibular utilizando arquivos binários, algoritmos de ordenação, cadastro de candidatos, ensalamento, correção de provas e geração de classificação.
-
-### Conceitos Utilizados
-
-- Arquivos binários
-- Registros
-- Algoritmos de ordenação
-- Programação estruturada
-- Processamento de dados
-
----
-
 ## Sistema Web de Jogo de Digitação
 
 Jogo web de digitação integrado com PHP e MySQL, incluindo sistema de login, armazenamento de pontuações e ranking.
@@ -177,16 +150,17 @@ Projeto pessoal front-end focado em mecânicas de jogos de cartas e simulação 
 
 ---
 
-## Monitor de Sistema Linux
+## Sistema de Gerenciamento de Vestibular (Pascal)
 
-Projeto em Shell Script para monitoramento de recursos do computador e exibição de informações do sistema via terminal.
+Sistema completo de gerenciamento de vestibular utilizando arquivos binários, algoritmos de ordenação, cadastro de candidatos, ensalamento, correção de provas e geração de classificação.
 
 ### Conceitos Utilizados
 
-- Bash scripting
-- Monitoramento de processos
-- Comandos Linux
-- Automação
+- Arquivos binários
+- Registros
+- Algoritmos de ordenação
+- Programação estruturada
+- Processamento de dados
 
 ---
 
