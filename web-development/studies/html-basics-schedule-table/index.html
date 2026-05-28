@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Basics Schedule Table</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>My Class Schedule</h1>
+            <ul>
+                <li><strong>Monday:</strong> DS123 Programming Language</li>
+                <li><strong>Tuesday:</strong> DS220 System Analysis and Design I</li>
+                <li><strong>Tuesday:</strong> DS221 Business Process Modeling and Analysis</li>
+                <li><strong>Wednesday:</strong> DS320 Database Systems I</li>
+                <li><strong>Thursday:</strong> DS122 Web Development I</li>
+                <li><strong>Friday:</strong> DS020 Computer Networks</li>
+            </ul>
+            <table style="width:100%" border="1px">  
+                <tr>
+                    <th>Times</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">19:00 - 20:40</td>
+                    <td rowspan="4">DS123 Programming Language</td>
+                    <td rowspan="2">DS220 System Analysis and Design I</td>
+                    <td rowspan="4">DS320 Database Systems I</td>
+                    <td rowspan="4">DS122 Web Development I</td>
+                    <td rowspan="4">DS020 Computer Networks</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td rowspan="2">21:00 - 22:40</td>
+                    <td rowspan="2">DS221 Business Process Modeling and Analysis</td>
+                </tr>
+            </table>
+    </body>
+</html>

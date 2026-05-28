@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 25px;
+    padding: 25px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 9px;
+    overflow: hidden;
+    background: white;
+}
+
+.service-image {
+    height: 180px;
+    background: #0d0c0fd2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.service-title {
+    padding: 20px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000cc;
+    line-height: 1.3;
+}
+
+.service-desc {
+    padding: 0 20px 20px 20px;
+    flex-grow: 1;
+    color: #474747;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.service-price {
+    padding: 0 20px 16px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #27ae60;
+}
+
+.service-button {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.service-button:hover {
+    background-color: #0b82d1;
+}
+
+@media (min-width: 768px) {
+    .catalog {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 32px;
+        gap: 28px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .catalog {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        padding: 40px;
+        margin: 0 auto;
+        gap: 32px;
+    }
+}

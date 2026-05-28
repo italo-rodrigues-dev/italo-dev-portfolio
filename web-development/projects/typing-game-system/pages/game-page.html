@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game</title>
+        <link rel="stylesheet" href="../css/pages-styles.css">
+        <link rel="stylesheet" href="../css/game-styles.css">
+        <link rel="favicon" href="../assets/icons/favicon.ico">
+        <script src="../scripts/pages-script.js" defer></script>
+        <script src="../scripts/game-script.js" defer></script>
+        <script src="../data/game-objects.js" defer></script>
+    </head>
+    <body>
+        <main class="game-page">
+            <section class="game-hud" aria-label="Game information">
+                <div>
+                    <span class="hud-label">Level</span>
+                    <strong id="level-value">1</strong>
+                </div>
+                <div>
+                    <span class="hud-label">Score</span>
+                    <strong id="score-value">0</strong>
+                </div>
+                <div>
+                    <span class="hud-label">Orders</span>
+                    <strong id="orders-value">0/2</strong>
+                </div>
+                <div class="stars" aria-label="Restaurant stars">
+                    <span class="star active"></span>
+                    <span class="star active"></span>
+                    <span class="star active"></span>
+                    <span class="star active"></span>
+                    <span class="star active"></span>
+                </div>
+            </section>
+
+            <section class="game-screen" id="dining-scene" aria-label="Restaurant dining room">
+                <div class="kitchen-counter" id="kitchen-counter">
+                    <span>Kitchen</span>
+                </div>
+                <div class="floor" id="restaurant-floor" aria-label="Restaurant floor">
+                    <div class="table-layer" id="table-layer"></div>
+                    <div class="waiter" id="waiter" aria-label="Waiter"></div>
+                </div>
+                <button class="interact-button hidden" id="interact-button" type="button">Interact</button>
+                <p class="movement-tip">Use WASD or arrow keys to walk.</p>
+            </section>
+
+            <section class="order-scene hidden" id="order-scene" aria-label="Order taking">
+                <div class="dialog-box" id="dialog-box" aria-live="polite"></div>
+                <div class="customer-view">
+                    <div class="customer-head"></div>
+                    <div class="customer-body"></div>
+                    <div class="table-front"></div>
+                </div>
+                <div class="notepad">
+                    <div class="notepad-header">Notepad</div>
+                    <div class="typed-order" id="typed-order"></div>
+                    <input id="order-input" type="text" autocomplete="off" aria-label="Type customer order">
+                    <p id="typing-feedback">Type the order exactly as shown.</p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

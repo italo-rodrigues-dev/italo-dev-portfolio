@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Grade System</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <section id="container"> 
+            <h1>Grade Register</h1>
+            <div>
+                <input type="text" id="studentName" placeholder="Enter name...">
+                <input type="number" id="grade1" placeholder="Grade one...">
+                <input type="number" id="grade2" placeholder="Grade two...">
+                <button id="addStudentBtn">Add Student</button><br>
+                <p id="notice"></p>
+                
+                <!-- debug button -->
+                <button style="display: none;" id="debugBtn">check</button>
+
+            </div>
+            <table id="studentTable">
+                    <tr id="headerRow">
+                        <th class="headerColumn">Student</th>
+                        <th class="headerColumn">Average</th>
+                        <th class="headerColumn">Status</th>
+                    </tr>
+                    <tr id="studentRows"></tr>
+            </table>
+            <div class="averageBox">
+                <p>Class Average: <strong id="classAverage">0.0</strong></p>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}

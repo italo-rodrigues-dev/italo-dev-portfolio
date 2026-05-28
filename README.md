@@ -88,19 +88,23 @@ The projects included here represent both coursework and personal initiatives de
 ```text
 italo-dev-portfolio/
 │
-├── c-language/
-│
-├── pascal/
-│
-├── shell-script/
-│
-├── databases/
-│
 ├── web-development/
-│
-├── computer-networks/
-│
-├── docs/
+│   ├── README.md
+│   │
+│   ├── projects/
+│   │   ├── student-grade-system/
+│   │   ├── tic-tac-toe-game/
+│   │   └── typing-game-system/
+│   │
+│   └── studies/
+│       ├── dynamic-background-switcher/
+│       ├── form-validation-system/
+│       ├── html-basics-schedule-table/
+│       ├── image-gallery-modal/
+│       ├── javascript-counter/
+│       ├── javascript-name-validation/
+│       ├── responsive-service-catalog/
+│       └── to-do-list-app/
 │
 └── README.md
 ```
@@ -199,19 +203,23 @@ Os projetos incluídos aqui representam tanto atividades acadêmicas quanto inic
 ```text
 italo-dev-portfolio/
 │
-├── c-language/
-│
-├── pascal/
-│
-├── shell-script/
-│
-├── databases/
-│
 ├── web-development/
-│
-├── computer-networks/
-│
-├── docs/
+│   ├── README.md
+│   │
+│   ├── projects/
+│   │   ├── student-grade-system/
+│   │   ├── tic-tac-toe-game/
+│   │   └── typing-game-system/
+│   │
+│   └── studies/
+│       ├── dynamic-background-switcher/
+│       ├── form-validation-system/
+│       ├── html-basics-schedule-table/
+│       ├── image-gallery-modal/
+│       ├── javascript-counter/
+│       ├── javascript-name-validation/
+│       ├── responsive-service-catalog/
+│       └── to-do-list-app/
 │
 └── README.md
 ```
